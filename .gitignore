@@ -1,0 +1,33 @@
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+env/
+venv/
+.venv/
+myenv/
+dist/
+build/
+*.egg-info/
+pip-log.txt
+*.sqlite3
+
+# Jupyter
+.ipynb_checkpoints
+
+# VSCode
+.vscode/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Huggingface/cache
+transformers_cache/
+cache/
+
+# model artifacts
+expense_classifier_model/
+expense_classifier_tokenizer/
+model.pkl
+label_encoder.pkl
